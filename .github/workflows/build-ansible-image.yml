@@ -23,6 +23,6 @@ jobs:
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/tuomastielinen/dev-container-ansible
-          cacheFrom: ghcr.io/tuomastielinen/dev-container-ansible
+          imageName: ghcr.io/tuomastielinen/dev-container-ansible/devcontainer
+          cacheFrom: ghcr.io/tuomastielinen/dev-container-ansible/devcontainer
           push: always
